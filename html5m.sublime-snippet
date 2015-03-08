@@ -1,0 +1,62 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>${1:Title}</title>
+	<meta name="description" content="$2">
+	<meta name="keywords" content="$3">
+	<meta name="robots" content="index">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Because of Internet Explorer ... -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--[if IE]>
+  	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+</head>
+<body>
+<header>
+	<h1 class="text-center">${4:Hello World!}</h1>
+	<nav><!--Start of the Nav -->
+		<ul>
+			<li><a href="#" title="">${5:Nav}</a></li>
+			<li><a href="#" title="">${6:Nav}</a></li>
+			<li><a href="#" title="">${7:Nav}</a></li>
+			<li><a href="#" title="">${8:Nav}</a></li>
+			<li><a href="#" title="">${9:Nav}</a></li>
+		</ul>
+	</nav><!--End of the Nav -->
+</header>
+<main><!--this is like the wrapper-->
+$0
+	<!--template content -->
+	<section>
+		<h2>${10:Section Header}</h2>
+		<p>${11:Lorem ipsum In irure sed in culpa nostrud ut Ut mollit consectetur Excepteur in ullamco Duis consectetur velit irure est ut fugiat do consectetur. Lorem ipsum Occaecat voluptate eu sunt amet ex eiusmod est ea ullamco ex anim laborum dolor culpa reprehenderit sint laboris in.}</p>
+	</section>
+	<aside>
+		<img src="${12:#}" alt="${13:#}">
+		<p>${14:Lorem ipsum Officia eu nisi aliquip et cillum ea do deserunt in labore ex Excepteur nulla irure non irure velit co∫nsequat ullamco aliqua cupidatat dolor voluptate fugiat dolor dolor consequat consectetur amet sint.}</p>
+	</aside>
+
+</main><!-- closes the main-->
+	<footer>
+		<p>${15:&copy;2015 Matthew Wilkinson}</p>
+		<a href="#" title="link title"><img src="#" alt="#"></a>
+	</footer>
+	<!-- Load JS here.-->
+	<script src="$16/javascripts/application.js"></script>
+<!-- Coded using sublime. Snippet by @chezmatt available on github -->
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html5m</tabTrigger>
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+	<description>CMYKninja's HTML 5 template</description>
+</snippet>
